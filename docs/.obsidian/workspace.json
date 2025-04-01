@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "c83870ffd24574d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e32e7c88955631f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "762d0910de81062f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02_blog/Weeknotes 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Weeknotes 1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "53beeab9c280208f",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd4740c10f7952a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c185d3652ee27e81",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8d90f9de76168ff7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7d9369bb7f153763",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b7baaf22c18eedfd",
+    "type": "split",
+    "children": [
+      {
+        "id": "eabae23d124ee6f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "829b189d81ff337d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_templates/Blog Entry.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Blog Entry"
+            }
+          },
+          {
+            "id": "3ff1c0de11380dc4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_templates/Blog Entry.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Blog Entry"
+            }
+          },
+          {
+            "id": "94856d7bf68ac131",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "125e88cad94367c0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_templates/Blog Entry.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Blog Entry"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "762d0910de81062f",
+  "lastOpenFiles": [
+    "02_blog/SD Card Test.md",
+    "02_blog/README.md",
+    "02_blog/I2S Audio Test.md",
+    "02_blog/I2C Test.md",
+    "02_blog/ESP-NOW Test.md",
+    "02_blog/Devlog 2 Boards Arrive & First Fulfillment!.md",
+    "02_blog/Devlog 1 Rev 2 and Enclosure Testing.md",
+    "02_blog/Custom Arduino Library.md",
+    "02_blog/Boot Up and Flash Test.md",
+    "02_blog/ADC + MCP7428 Test.md",
+    "02_blog/Weeknotes 1.md",
+    "_templates/_blog.md",
+    "_attachments/5da02b4b-26ff-4d94-8f46-34d1b2ad6d27.png",
+    "_attachments/3b1437cc-9a3b-4385-ad8e-c4eb7f6ce6b6.png",
+    "_templates/_post.md",
+    "_templates/_page.md",
+    "_templates/_changelog.md",
+    "_templates/_README.md",
+    "02_blog/categories/media/Weeknotes 1bf67bb8fd9480fe9645d58bba8087a4_all.csv",
+    "02_blog/categories/media/Weeknotes 1bf67bb8fd9480fe9645d58bba8087a4.csv",
+    "02_blog/categories/media/Untitled 1bf67bb8fd948067bdd7c9b26481a94c.csv",
+    "02_blog/categories/media/TopDown.png",
+    "02_blog/categories/media/tinyVoice.png",
+    "02_blog/categories/media/tinySniff.png",
+    "02_blog/categories/media/tinyProto.png",
+    "02_blog/categories/media/tinyGlow.png",
+    "02_blog/categories/media/tinyDisplay.png",
+    "02_blog/categories/media/tinyCoreV2Pinout.png",
+    "02_blog/categories/media/tinyCore-store-6.jpg",
+    "02_blog/categories/media/README.md",
+    "02_blog/categories/media",
+    "02_blog/categories",
+    "02_blog/New folder",
+    "01_home.md",
+    "fix_encoding.py",
+    "Getting Started.md",
+    "02_blog/Blog.md",
+    "_templates/Blog Entry.md",
+    "02_blog/posts/3-30-25.md",
+    "02_blog/posts/Weeknotes 1bf67bb8fd9480d2a4e0d65ef2ab8407.md",
+    "02_blog/posts/v20.md",
+    "02_blog/posts/Something New.md",
+    "02_blog/posts",
+    "02_blog",
+    "assets/images/favicon.ico"
+  ]
+}
