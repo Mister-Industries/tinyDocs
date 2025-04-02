@@ -7,19 +7,19 @@ theme:
   logo: 'assets/images/tinyLogoWhite.png'
   name: material
   palette:
-    - scheme: slate
+    - scheme: default
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: blue grey
-      accent: deep purple
+      primary: custom
+      accent: custom
 
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
-      accent: deep orange
+      primary: custom
+      accent: custom
   font:
     text: Space Grotesk
     code: Roboto Mono
@@ -31,10 +31,51 @@ theme:
     - navigation.top
     - navigation.footer
     - search.suggest
+
+extra_css:
+  - stylesheets/extra.css
+
 watch:
     - overrides
+
 plugins:
     - search
+    - blog: 
+        authors_profiles: true
+        authors_profiles_name: Authors
+
+nav:
+  - Home: home.md
+  
+  - Get Started: 
+    - get-started/index.md
+    - Unboxing: get-started/unboxing.md
+    - Setup Arduino IDE: get-started/arduino-ide.md
+    - Your First Application: get-started/motion-tracker.md
+  
+  - Basics: 
+    - basics/index.md
+    - Using GPIO: basics/gpio.md
+    - Using the IMU: basics/imu.md
+    - Using the SD Card: basics/sdcard.md
+    - Using the Serial Monitor & Plotter: basics/serial.md
+    - Using I2C: basics/i2c.md
+    - Using tinyProto: basics/tinyProto.md
+
+  - Advanced: 
+    - advanced/index.md
+    - Using I2S: advanced/I2S.md
+    - Using DMA/Fast ADC: advanced/dma.md
+    - Using AI/tinyML: advanced/ai.md
+    - Using ESP-NOW: advanced/esp-now.md
+    - Using WiFi: advanced/wif.md
+    - Using BLE: advanced/ble.md
+    - Using HID: advanced/hid.md
+    - Using MIDI: advanced/midi.md
+    - Using USB Mass Storage: advanced/usb-mass-storage.md
+
+  - Blog: blog/index.md
+
 markdown_extensions:
   - admonition
   - attr_list
