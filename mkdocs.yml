@@ -7,19 +7,19 @@ theme:
   logo: 'assets/images/tinyLogoWhite.png'
   name: material
   palette:
-    - scheme: default
+    - scheme: slate
       toggle:
-        icon: material/weather-sunny
+        icon: material/toggle-switch
         name: Dark mode
-      primary: custom
-      accent: custom
+      primary: grey
+      accent: grey
 
     - scheme: default
       toggle:
-        icon: material/weather-night
+        icon: material/toggle-switch-off-outline
         name: Light mode
-      primary: custom
-      accent: custom
+      primary: grey
+      accent: grey
   font:
     text: Space Grotesk
     code: Roboto Mono
@@ -31,6 +31,7 @@ theme:
     - navigation.top
     - navigation.footer
     - search.suggest
+    - content.footnote.tooltips
 
 extra_css:
   - stylesheets/extra.css
@@ -45,12 +46,14 @@ plugins:
         authors_profiles_name: Authors
 
 nav:
-  - Home: home.md
+  
+  - Home: index.md
   
   - Get Started: 
     - get-started/index.md
     - Unboxing: get-started/unboxing.md
     - Setup Arduino IDE: get-started/arduino-ide.md
+    - Setup the IMU: get-started/imu.md
     - Your First Application: get-started/motion-tracker.md
   
   - Basics: 
