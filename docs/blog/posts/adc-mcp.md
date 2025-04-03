@@ -2,8 +2,7 @@
 title: ADC + MCP7428 Test
 slug: adc-mcp
 publish: true
-date: 2024-11-19 12:00:00
-update: 2024-11-19 12:00:00
+date: 2024-11-19
 authors: 
   - macgeoffrey
 description: Writeup to test the ADC and MCP7428

@@ -2,8 +2,7 @@
 title: SD Card Test
 slug: sd-card-test
 publish: true
-date: 2024-11-23 12:05:00
-update: 2024-11-23 12:05:00
+date: 2024-11-23
 authors: 
   - macgeoffrey
 description: Demo code for the SD Card on tinyCore

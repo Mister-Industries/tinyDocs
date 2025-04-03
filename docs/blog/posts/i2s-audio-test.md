@@ -2,8 +2,7 @@
 title: I2S Audio Test
 slug: i2s-audio-test
 publish: true
-date: 2024-11-24 12:00:00
-update: 2024-11-24 12:00:00
+date: 2024-11-24
 authors: 
   - macgeoffrey
 description: Testing I2S Audio on the tinyCore

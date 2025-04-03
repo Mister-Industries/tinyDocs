@@ -2,8 +2,8 @@
 title: "Weeknotes #2"
 slug: weeknotes-2
 publish: true
-date: 2025-04-02 12:00:00
-update: 2025-04-02 12:00:00
+comments: true
+date: 2025-04-02
 authors: 
   - macgeoffrey
 description: "Weeknote #2"
@@ -14,6 +14,7 @@ tags:
 hide:
   - toc
   - navigation
+  - feedback
 ---
 
 Hey everyone! Welcome to this week's Wednesday Weeknote. Here's what we've been up to:
@@ -109,5 +110,5 @@ We're also actively working on our submission to the Hackster.io Board Design Co
 
 ---
 
-**We're trying a new style with the format of these weeknotes with MkDocs. As always, we'd love your feedback! Drop us a comment with your comments, projects, or questions!**
+**We're trying a new style with the format of these weeknotes with MkDocs. As always, we'd love your feedback, and we've made it easier than ever to share! Drop us a comment below with your thoughts, projects, or questions!**
 

@@ -2,8 +2,7 @@
 title: "Devlog #1: Rev 2 and Enclosure Testing"
 slug: devlog-1
 publish: true
-date: 2025-01-24 12:00:00
-update: 2025-01-24 12:00:00
+date: 2025-01-24
 authors: 
   - macgeoffrey
 description: "Devlog #1"

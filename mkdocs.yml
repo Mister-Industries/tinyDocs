@@ -6,6 +6,7 @@ theme:
   favicon: 'assets/images/favicon.ico'
   logo: 'assets/images/tinyLogoWhite.png'
   name: material
+  custom_dir: overrides
   palette:
     - scheme: slate
       toggle:
@@ -44,6 +45,11 @@ plugins:
     - blog: 
         authors_profiles: true
         authors_profiles_name: Authors
+        archive: true
+        archive_date_format: yyyy
+        archive_name: Archive
+        archive_pagination: true
+        categories: true
 
 nav:
   

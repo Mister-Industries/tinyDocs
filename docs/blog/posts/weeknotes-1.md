@@ -2,8 +2,8 @@
 title: "Weeknotes #1"
 slug: weeknotes-1
 publish: true
-date: 2025-03-23 12:00:00
-update: 2025-03-23 12:00:00
+comments: true
+date: 2025-03-23
 authors: 
   - macgeoffrey
 description: "Weeknote #1"
@@ -17,6 +17,7 @@ tags:
 hide:
   - toc
   - navigation
+  - feedback
 ---
 
 We're changing up our Devnotes to from monthly to weekly updates! The goal of this is to promote "working with the garage door open," giving (you) our followers the inside scoop on our progress and decisions. Let's get into the weeknote:

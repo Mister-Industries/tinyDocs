@@ -2,8 +2,7 @@
 title: Boot Up and Flash Test
 slug: boot-up-test
 publish: true
-date: 2024-10-28 12:00:00
-update: 2024-10-28 12:00:00
+date: 2024-10-28
 authors: 
   - macgeoffrey
 description: Notes on how to flash the board and initial boot-up and test

@@ -2,8 +2,7 @@
 title: I2C Test
 slug: i2c-test
 publish: true
-date: 2024-11-06 12:05:00
-update: 2024-11-06 12:05:00
+date: 2024-11-06
 authors: 
   - macgeoffrey
 description: Testing I2C on the tinyCore

@@ -2,8 +2,7 @@
 title: ESP-NOW Test
 slug: esp-now-test
 publish: true
-date: 2024-11-06 12:00:00
-update: 2024-11-06 12:00:00
+date: 2024-11-06
 authors: 
   - macgeoffrey
 description: Testing ESP-NOW on the tinyCore

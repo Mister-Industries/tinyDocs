@@ -2,8 +2,7 @@
 title: "Devlog #2: Boards Arrive & First Fulfillment!"
 slug: devlog-2
 publish: true
-date: 2025-02-23 12:00:00
-update: 2025-02-23 12:00:00
+date: 2025-02-23
 authors: 
   - macgeoffrey
 description: "Devlog #2"

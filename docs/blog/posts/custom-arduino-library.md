@@ -2,8 +2,7 @@
 title: Custom Arduino Library
 slug: custom-arduino-library
 publish: true
-date: 2024-11-23 12:00:00
-update: 2024-11-23 12:00:00
+date: 2024-11-23
 authors: 
   - macgeoffrey
 description: Our first attempt at creating a custom board library for Arduino
