@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4b70b4637086015a",
+        "id": "c395c831a201cfed",
         "type": "tabs",
         "children": [
           {
-            "id": "f4c403644dc34fef",
+            "id": "0d1a66dbe54f5519",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -90,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/Blog Entry.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Blog Entry"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -151,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,8 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4c403644dc34fef",
+  "active": "0d1a66dbe54f5519",
   "lastOpenFiles": [
+    "blog/posts/weeknotes-2.md",
+    "index.md",
+    "blog/index.md",
     "stylesheets/extra.css",
     "stylesheets",
     "advanced/index.md",
@@ -191,8 +197,6 @@
     "blog/posts/devlog-1/image7.png",
     "blog/posts/devlog-1",
     "blog/posts/devlog-2.md",
-    "blog/index.md",
-    "blog/posts/devlog-2",
     "blog/posts/sd-card-test.md",
     "blog/posts/i2s-audio-test.md",
     "blog/posts/i2c-test.md",
@@ -210,7 +214,6 @@
     "blog/posts/I2S Audio Test.md",
     "blog/posts/I2C Test.md",
     "blog/posts/ESP-NOW Test.md",
-    "blog/posts/Devlog 2 Boards Arrive & First Fulfillment!.md",
-    "blog/posts/Devlog 1 Rev 2 and Enclosure Testing.md"
+    "blog/posts/Devlog 2 Boards Arrive & First Fulfillment!.md"
   ]
 }

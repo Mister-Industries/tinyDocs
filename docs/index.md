@@ -11,10 +11,10 @@ hide:
   - navigation
 ---
 
-## What is tinyCore?
 <div class="grid" markdown>
-
 <div class="grid-item" markdown >
+
+## What is tinyCore?
 ---
 
 tinyCore is an engineering learning platform based around a truly open-source (open-knowledge) microcontroller designed to help educate individuals on the world of advanced embedded systems. tinyCore’s mission is to bridge the gap between undergrad and industry, equipping young professionals with the resources they need to build their portfolio and bring their ideas to life. 
@@ -26,6 +26,7 @@ tinyCore is an engineering learning platform based around a truly open-source (o
 * Integrated Motion Tracking
 * Built-in SD Card
 * Arduino IDE and CircuitPython
+<br/><br/>
 
 [Start Building!](get-started){ .md-button .md-button--primary }
 </div>
@@ -40,24 +41,42 @@ Whether you're a seasoned engineer or a curious beginner, there's a place for yo
 
 <div class="grid cards" markdown>
 
+<div class="grid cards" markdown>
 
-- ### Join the Discord
-  Our [Discord server](https://discord.gg/hvJZhwfQsF) provides weekly office hours, community hackathons, project showcases, and technical support. We'd love to see you there.
-  Stay updated with our latest developments and industry insights by following us on LinkedIn and BlueSky (@mr.industries). Our social channels feature regular project highlights and community spotlights.
+### Join the Discord
+---
 
-- ### Contributing
-  All contributions are welcome. Start by forking [our repository](https://github.com/Mister-Industries/tinyCore) and checking out our contribution guidelines. Not into coding? Help improve our documentation, share your project builds, or assist others in our Discord community.
+![StudentsPhoto](assets\images\IMG_2650.JPG)
 
-- ### Share Your Thoughts
-  Your feedback is important! Share feature requests and bug reports through GitHub Issues, or reach out directly at [support@mr.industries](mailto:support@mr.industries). Our team reviews all suggestions and typically responds within 24 hours.
+Our [Discord server](https://discord.gg/hvJZhwfQsF) provides weekly office hours, community hackathons, project showcases, and technical support. We'd love to see you there.
+  
+Stay updated with our latest developments and industry insights by following us on LinkedIn and [BlueSky](@mr.industries).
+</div>
+<div class="grid cards" markdown>
+
+### Contributing
+---
+
+![FoundersPhoto](assets\images\IMG_2420 (1).JPG)
+
+All contributions are welcome. Start by forking [our repository](https://github.com/Mister-Industries/tinyCore) and checking out our contribution guidelines. 
+
+Not into coding? Help improve our documentation, share your project builds, or assist others in our Discord community.
 
 </div>
+<div class="grid cards" markdown>
 
-## Resources:
+### Share Your Thoughts
 ---
-[FAQ](/faq)
+![FoundersPhoto](assets\images\IMG_2740.JPG)
 
-[User Projects](/user-spotlight)
+Your feedback is important to us! 
+
+Share feature requests and bug reports through GitHub Issues, or reach out directly at [support@mr.industries](mailto:support@mr.industries). 
+
+Our team reviews all suggestions and typically responds within 24 hours.
+</div>
+</div>
 
 ## About the Team:
 ---
@@ -78,7 +97,7 @@ By building in the open and putting humans first, [MR.INDUSTRIES](http://MR.INDU
 
 <div class="grid-item" markdown >
 
-![FoundersPhoto](assets/images/20230715_113507%20(1).jpg)
+![FoundersPhoto](assets\images\IMG_2787.JPG)
 
 *Aiden (left) and Geoff (right) at Open Sauce 2023 with Colin Furze (YouTuber, unaffiliated)*
 </div>
@@ -88,10 +107,10 @@ By building in the open and putting humans first, [MR.INDUSTRIES](http://MR.INDU
 ## Our Amazing Sponsors
 ---
 
-The tinyCore project thrives thanks to the generous support of our manufacturing and development partner:
-
 <div class="grid cards" markdown>
 <div markdown>
+The tinyCore project thrives thanks to the generous support of our manufacturing and development partner:
+
 ![PCBWay.png](assets/images/PCBWay.png)
 
 ---
@@ -100,10 +119,8 @@ The tinyCore project thrives thanks to the generous support of our manufacturing
 </div>
 
 <div markdown>
-</div>
-</div>
 
-### **Want to support us?**
+## **Want to support us?**
 
 ---
 
@@ -115,3 +132,12 @@ Help us advance open-source hardware development by supporting the project. Cons
 Monthly subscriptions through GitHub Sponsors or PCBWay directly fund new feature development and community resources. Supporters receive priority support, custom enclosure designs, and early access to new features. Together, we're making advanced microcontrollers accessible to everyone.
 
 </aside>
+
+</div>
+</div>
+
+## Resources:
+---
+[FAQ](/faq)
+
+[User Projects](/user-spotlight)
