@@ -2,7 +2,7 @@
 title: "Weeknotes #2"
 slug: weeknotes-2
 publish: true
-draft: true
+draft: false
 date: 2025-04-02 12:00:00
 update: 2025-04-02 12:00:00
 authors: 
