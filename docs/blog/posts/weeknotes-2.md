@@ -104,7 +104,7 @@ We're also actively working on our submission to the Hackster.io Board Design Co
 
 ### What's Next
 
-- Testing, soldering, and more testing :tired_face:
+- Testing, soldering, and more testing :star_struck:
 - Fulfillment of our first pre-orders! 
 - Continued development of our documentation
 
