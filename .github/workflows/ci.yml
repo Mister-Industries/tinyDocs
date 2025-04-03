@@ -26,4 +26,10 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
+      
+      # Create CNAME file if it doesn't exist
+      - name: Set up custom domain
+        run: |
+          echo "docs.mr.industries" > docs/CNAME
+      
       - run: mkdocs gh-deploy --force
