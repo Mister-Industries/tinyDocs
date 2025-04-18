@@ -36,11 +36,13 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/interactive_graph.css
 
 watch:
     - overrides
 
 plugins:
+    - obsidian-interactive-graph
     - search
     - blog: 
         authors_profiles: true
@@ -50,6 +52,7 @@ plugins:
         archive_name: Archive
         archive_pagination: true
         categories: true
+    
 
 nav:
   
@@ -115,6 +118,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink
   - pymdownx.mark
+  - pymdownx.blocks.caption
   - pymdownx.tabbed:
       alternate_style: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify
@@ -130,6 +134,12 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
+  - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
+  - assets/javascripts/interactive_graph.js
+
 extra:
   social:
     - icon: simple/youtube

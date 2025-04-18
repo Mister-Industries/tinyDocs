@@ -99,7 +99,7 @@ By building in the open and putting humans first, [MR.INDUSTRIES](http://MR.INDU
 
 ![FoundersPhoto](assets\images\IMG_2787.JPG)
 
-*Aiden (left) and Geoff (right) at Open Sauce 2023 with Colin Furze (YouTuber, unaffiliated)*
+*Aiden (left) and Geoff (right) at Clear Creek Makerspace*
 </div>
 
 </div>
