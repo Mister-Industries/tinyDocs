@@ -42,7 +42,7 @@ watch:
     - overrides
 
 plugins:
-    - obsidian-interactive-graph
+    #- obsidian-interactive-graph
     - search
     - blog: 
         authors_profiles: true
