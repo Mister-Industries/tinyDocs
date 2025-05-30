@@ -5,11 +5,13 @@ Owner: Geoff McIntyre
 
 ⚠️ Make sure you have already installed the custom tinyCore board and setup your Arduino IDE using the [previous tutorial](arduino-ide.md)!
 
-In this tutorial, we will walk through how to use the built-in IMU on the tinyCore V2, using the Arduino IDE. At this point, you should have already installed the custom board library and tested flashing an example program (e.g. Blink).
+In this tutorial, we will walk through how to use the built-in IMU on the tinyCore V2.0, using the Arduino IDE. At this point, you should have already installed the custom board library and tested flashing an example program (e.g. Blink).
 
 ### 1. Install the libraries
 
-The IMU used on the chip is the LSM6DS, which Adafruit has already made a wonderful library for: [**Adafruit_LSM6DS**](https://github.com/adafruit/Adafruit_LSM6DS/tree/master)
+The IMU used on the chip is the LSM6DSOX, which Adafruit has already made a wonderful library for: [**Adafruit_LSM6DS**](https://github.com/adafruit/Adafruit_LSM6DS/tree/master)
+
+
 
 You can either install it manually, or click on the Library Manager icon in Arduino IDE:
 
@@ -18,6 +20,8 @@ You can either install it manually, or click on the Library Manager icon in Ardu
 Then search “Adafruit_LSM6DS” and click `INSTALL`
 
 ![image.png](imu/image1.png)
+
+**FOR LEGACY (iotaCore) BOARDS ONLY:**
 
 After the Adafruit Library is installed, navigate to the directory it installed to. Usually this is in `Documents → Arduino → libraries → Adafruit LSM6DS`
 
@@ -35,6 +39,7 @@ Our IMU example demonstrates how to initialize the IMU and view it’s data grap
 
 [IMU-Serial-Plotter.ino](imu/IMU-Serial-Plotter.ino)
 
+LEGACY CODE:
 ```arduino
 #include <tinyCore_LSM6DS3TRC.h>
 

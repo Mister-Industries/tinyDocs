@@ -10,15 +10,15 @@ theme:
   palette:
     - scheme: slate
       toggle:
-        icon: material/toggle-switch
-        name: Dark mode
+        icon: material/weather-sunny
+        name: Switch to Light Mode
       primary: grey
       accent: grey
 
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
-        name: Light mode
+        icon: material/weather-night
+        name: Switch to Dark Mode
       primary: grey
       accent: grey
   font:
@@ -36,13 +36,12 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/interactive_graph.css
+  #- stylesheets/interactive_graph.css
 
 watch:
     - overrides
 
 plugins:
-    #- obsidian-interactive-graph
     - search
     - blog: 
         authors_profiles: true
@@ -52,6 +51,7 @@ plugins:
         archive_name: Archive
         archive_pagination: true
         categories: true
+    - live-edit
     
 
 nav:
@@ -138,7 +138,7 @@ markdown_extensions:
 extra_javascript:
   - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
   - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
-  - assets/javascripts/interactive_graph.js
+  #- assets/javascripts/interactive_graph.js
 
 extra:
   social:
