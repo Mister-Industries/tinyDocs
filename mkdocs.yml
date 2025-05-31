@@ -51,7 +51,7 @@ plugins:
         archive_name: Archive
         archive_pagination: true
         categories: true
-    - live-edit
+    #- live-edit
     
 
 nav:
