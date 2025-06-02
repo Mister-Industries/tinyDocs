@@ -1,7 +1,7 @@
 # Unboxing
 ---
 
-## What's Inside
+## 1. What's Inside
 ---
 
 Inside your tinyCore V2 Kit, you should find several things to help you get started:
@@ -17,7 +17,7 @@ Inside your tinyCore V2 Kit, you should find several things to help you get star
 - 1x Micro SD Card Reader
 - 1x Plastic project box (the kit itself!)
 
-## Preparing the Headers
+## 2. Preparing the Headers (Optional) 
 
 (As of the tinyCore V2.1 Kit, this step will not be necessary.)
 
@@ -37,7 +37,7 @@ The male headers look like this and are for the bottom (Serial) pins.
 
 After soldering in the female headers, you can place in the male header pins, and solder these too. 
 
-## Assembling the Enclosure
+## 3. Assembling the Enclosure
 
 Once the headers are soldered, we can put the PCB in the enclosure!
 

@@ -4,12 +4,12 @@ Created: February 15, 2025 9:32 PM
 Tags: Arduino, IMU
 Owner: Kickass Support
 
-## Software and Prerequisites
+## 1. Software and Prerequisites
 
 - [**Arduino IDE](https://docs.arduino.cc/software/ide-v2) 1.6.4 or later**
 - Working internet connection
 
-## Installation Steps
+## 2. Installation Steps
 
 1. **First, we need to download the Arduino IDE, which can be done from the [Arduino Software page](https://www.arduino.cc/en/software/).**
 2. **Install the Arduino IDE on your local machine.**
@@ -80,7 +80,7 @@ Owner: Kickass Support
 3. **Congrats! You’re ready to start building!**
 - Check out our [IMU example](imu.md)
 
-## Troubleshooting
+## 3. Troubleshooting
 
 • Verify URL is correct and accessible
 
@@ -90,6 +90,6 @@ Owner: Kickass Support
 
 • Ensure you have the latest Arduino IDE version
 
-## Support
+!!! warning "Having trouble?"
 
-Send us an email at [support@mr.industries](mailto:support@mr.industries) or join our [Discord](https://discord.gg/hvJZhwfQsF) for help!
+    Send us an email at [support@mr.industries](mailto:support@mr.industries) or join our [Discord](https://discord.gg/hvJZhwfQsF) for help!
