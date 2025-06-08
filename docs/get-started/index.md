@@ -2,7 +2,7 @@
 
 ### So you bought a tinyCore...
 
-![image.png](index\PXL_20250605_163640724.jpg)
+![image.png](index/PXL_20250605_163640724.jpg)
 
 First off, Congratulations (and Thank You!)
 
