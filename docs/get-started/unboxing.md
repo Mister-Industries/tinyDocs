@@ -6,7 +6,7 @@
 
 Inside your tinyCore V2 Kit, you should find several things to help you get started:
 
-![image1.png](unboxing/PXL_20250605_155600247.jpg)
+![PXL_20250605_155600247.jpg](unboxing/PXL_20250605_155600247.jpg)
 
 | Label | Item        | Quantity                             |
 | ----- | ----------- | :------------------------------------: |
@@ -50,7 +50,7 @@ Once the headers are soldered, we can put the PCB in the enclosure!
 
 First, gently open up the clamshell[^2] body of the enclosure. Unclip the hinges and open up the shell. 
 
-![image2.png](unboxing/PXL_20250605_161000574.jpg)
+![PXL_20250605_161000574.jpg](unboxing/PXL_20250605_161000574.jpg)
 
 [^2]: Meaning two parts that fit together
 
@@ -62,10 +62,10 @@ Then replace and tighten the M3 Screws provided in your kit.
 
     Do not overtighten the screws! Just make sure they are snug.
 
-![image3.png](unboxing/PXL_20250605_161500472.jpg)
+![PXL_20250605_161500472.jpg](unboxing/PXL_20250605_161500472.jpg)
 
 Once the PCB is fit correctly and tightened down, return the cover to it's original position, making sure that the headers align with the holes in the top.
 
-![image4.png](unboxing/PXL_20250605_161428908.jpg)
+![PXL_20250605_161428908.jpg](unboxing/PXL_20250605_161428908.jpg)
 
 Now your tinyCore is ready to use!
