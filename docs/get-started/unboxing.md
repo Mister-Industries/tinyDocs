@@ -30,11 +30,11 @@ Inside your tinyCore V2 Kit, you should find several things to help you get star
 
 Here's your first big challenge: Soldering the headers!
 
-Luckily they are "key-ed"[^1] by number, so you can only 
+You must be careful, since they are "key-ed"[^1] by number of pins. This means they can only be soldered correctly in one configuration.
 
 [^1]: "Key-ing" is a mechanical term that describes when something is designed in a way that it will only fit one way. Think of house keys!
 
-We have three headers to solder, Two Female, and one Male (9-pins)
+We have three headers to solder, Two Female (8 pins), and one Male (9-pins)
 
 The female headers look like this, and are for the left and right (Digital and Analog) pins. 
 

@@ -6,7 +6,7 @@ Owner: Kickass Support
 
 ## 1. Software and Prerequisites
 
-- [**Arduino IDE](https://docs.arduino.cc/software/ide-v2) 1.6.4 or later**
+- [**Arduino IDE**](https://docs.arduino.cc/software/ide-v2) **1.6.4 or later**
 - Working internet connection
 
 ## 2. Installation Steps
@@ -15,34 +15,46 @@ Owner: Kickass Support
 2. **Install the Arduino IDE on your local machine.**
 3. **Open the Arduino IDE.**
 4. **Navigate to Preferences**
+    
     ◦ File > Preferences (Windows/Linux)
+    
     ◦ Arduino > Preferences (macOS)
     
     ![image.png](arduino-ide/image.png)
     
 5. **Add Custom Board Manager URL**
+    
     ◦ In "Additional Board Manager URLs" field, paste: `https://raw.githubusercontent.com/Mister-Industries/arduino-board-index/refs/heads/main/package_tiny_core_index.json`
+    
     ◦ For multiple URLs, separate with commas
 
 ![image.png](arduino-ide/image1.png)
 
+
 6. **Open Board Manager**
+
     ◦ Tools > Board > Boards Manager
     
     *(Or press the Boards Manager Icon on the left menu:)* 
     
     ![image.png](arduino-ide/image2.png)
     
+
 7. **Install ESP32 Boards/Tools**
+
     ◦ Search for `esp32`
+    
     ◦ Select `esp32` package (v3.1.1) by Espressif
+    
     ◦ Click "Install"
     
     ![image.png](arduino-ide/3d4a5940-fb7b-4fc9-a12c-6ffef0f89372.png)
     
 8. **Install iotaCore Custom Board**
     ◦ Search for `tinyCore`
+    
     ◦ Select `tinyCore ESP32 Boards` package (v2.0.0) by MR.INDUSTRIES
+    
     ◦ Click "Install"
     
     ![image.png](arduino-ide/image3.png)
