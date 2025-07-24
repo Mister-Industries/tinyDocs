@@ -26,48 +26,48 @@ Owner: Kickass Support
 
 ![image.png](arduino-ide/image1.png)
 
-1. **Open Board Manager**
+6. **Open Board Manager**
     ◦ Tools > Board > Boards Manager
     
     *(Or press the Boards Manager Icon on the left menu:)* 
     
     ![image.png](arduino-ide/image2.png)
     
-2. **Install ESP32 Boards/Tools**
+7. **Install ESP32 Boards/Tools**
     ◦ Search for `esp32`
     ◦ Select `esp32` package (v3.1.1) by Espressif
     ◦ Click "Install"
     
     ![image.png](arduino-ide/3d4a5940-fb7b-4fc9-a12c-6ffef0f89372.png)
     
-3. **Install iotaCore Custom Board**
+8. **Install iotaCore Custom Board**
     ◦ Search for `tinyCore`
     ◦ Select `tinyCore ESP32 Boards` package (v2.0.0) by MR.INDUSTRIES
     ◦ Click "Install"
     
     ![image.png](arduino-ide/image3.png)
     
-4. **Plug in your tinyCore via the included USB-C Cable!**
-5. Under the devices tab, you should see a new device appear. Click `Select other board and port...`
+9. **Plug in your tinyCore via the included USB-C Cable!**
+10. Under the devices tab, you should see a new device appear. Click `Select other board and port...`
 
 ![image.png](arduino-ide/image4.png)
 
-1. **Search “tinyCore”** and select `tinyCore ESP32-S3 No PSRAM` and click on the COM Port of the new device. Click OK.
+11. **Search “tinyCore”** and select `tinyCore ESP32-S3 No PSRAM` and click on the COM Port of the new device. Click OK.
 
 ![image.png](arduino-ide/image5.png)
 
-1. **Now, open the Blink Example** by navigating to `File -> Examples -> 01.Basics -> Blink`
+12. **Now, open the Blink Example** by navigating to `File -> Examples -> 01.Basics -> Blink`
 
 ![image.png](arduino-ide/image6.png)
 
-1. **Under `Tools`**, make sure that:
+13. **Under `Tools`**, make sure that:
     
     - Upload Mode is set to `UART0 / Hardware CDC`
     - USB Mode is set to `Hardware CDC and JTAG`
     
     ![image.png](arduino-ide/image7.png)
     
-2. **Click Upload!**
+14. **Click Upload!**
     
     The code should compile and you should see the device flash and hard reset. 
     
@@ -77,7 +77,7 @@ Owner: Kickass Support
     
     ![9ku55n.gif](arduino-ide/9ku55n.gif)
     
-3. **Congrats! You’re ready to start building!**
+15. **Congrats! You’re ready to start building!**
 - Check out our [IMU example](imu.md)
 
 ## 3. Troubleshooting
