@@ -34,15 +34,23 @@ You must be careful, since they are "key-ed"[^1] by number of pins. This means t
 
 [^1]: "Key-ing" is a mechanical term that describes when something is designed in a way that it will only fit one way. Think of house keys!
 
-We have three headers to solder, Two Female (8 pins), and one Male (9-pins)
+We have three headers to solder, two female (8 pins), and one male (9-pins)
+
+![Headers.jpg](unboxing/Headers.jpg)
 
 The female headers look like this, and are for the left and right (Digital and Analog) pins. 
 
-Make sure they are face up on your board, then flip over the board and solder.
+![maleheaders.jpg](unboxing/femaleheader.jpg)
 
-The male headers look like this and are for the bottom (Serial) pins. 
+The male headers look like this and are for the bottom (Serial) pins: 
 
-After soldering in the female headers, you can place in the male header pins, and solder these too. 
+![femaleheaders.jpg](unboxing/maleheader.jpg)
+
+Put the female headers in while the is PCB face up, then flip over the board and solder.
+
+![femaleheaders.jpg](unboxing/headerorientation.jpg)
+
+After soldering in the female headers, you can place in the male header pins, and solder these too. **Make sure that you put the short end of the male headers through the board!** 
 
 ## 3. Assembling the Enclosure
 
