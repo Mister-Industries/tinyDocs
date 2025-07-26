@@ -46,6 +46,7 @@ The entire event was awesome, we met so many amazing people and welcomed tons of
 ![](weeknotes-6/foldingstuff.jpg)
 
 Half the team flew to San Francisco while the other half drove the 2500 miles from Colorado to California. We had a mini team road trip! 
+
 ![](weeknotes-6/saltflat.jpg)
 
 Aiden’s mom made us custom shirts to help us look more professional :)
@@ -88,6 +89,7 @@ Here's us setting up the booth..
 Then the team got to work selling tinyCore’s and getting the word out. People loved the project so much that we sold out of all the kits we brought. We had to start redirecting buyers to our website!
 
 The rest of our time was spent testing boards, filming content, and team bonding at our AirBnB!
+
 ![](weeknotes-6/teamdinner.jpg)
 
 
