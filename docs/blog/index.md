@@ -1,1 +1,1 @@
-# tinyBlog
+# Blog

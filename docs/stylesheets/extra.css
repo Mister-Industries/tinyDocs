@@ -1,19 +1,19 @@
 /* Light mode (default) */
 :root {
   /* Primary colors */
-  --md-primary-fg-color: #424242;
-  --md-primary-fg-color--light: #616161;
-  --md-primary-fg-color--dark: #212121;
+  --md-primary-fg-color: #2196F3;
+  --md-primary-fg-color--light: #42A5F5;
+  --md-primary-fg-color--dark: #1976D2;
   
   /* Accent colors */
-  --md-accent-fg-color: #757575;
-  --md-accent-fg-color--transparent: rgba(117, 117, 117, 0.1);
+  --md-accent-fg-color: #42A5F5;
+  --md-accent-fg-color--transparent: rgba(66, 165, 245, 0.1);
   
   /* Background colors */
-  --md-default-bg-color: #ffffff;
-  --md-default-bg-color--light: #f5f5f5;
-  --md-default-bg-color--lighter: #eeeeee;
-  --md-default-bg-color--lightest: #e0e0e0;
+  --md-default-bg-color: #e6e6f0;
+  --md-default-bg-color--light: #f0f0fa;
+  --md-default-bg-color--lighter: #f5f5ff;
+  --md-default-bg-color--lightest: #fafaff;
   
   /* Text colors */
   --md-default-fg-color: rgba(0, 0, 0, 0.87);
@@ -25,19 +25,19 @@
 /* Dark mode */
 [data-md-color-scheme="slate"] {
   /* Primary colors */
-  --md-primary-fg-color: #424242;
-  --md-primary-fg-color--light: #616161;
-  --md-primary-fg-color--dark: #212121;
+  --md-primary-fg-color: #2196F3;
+  --md-primary-fg-color--light: #42A5F5;
+  --md-primary-fg-color--dark: #1976D2;
   
   /* Accent colors */
-  --md-accent-fg-color: #757575;
-  --md-accent-fg-color--transparent: rgba(117, 117, 117, 0.1);
+  --md-accent-fg-color: #42A5F5;
+  --md-accent-fg-color--transparent: rgba(66, 165, 245, 0.1);
   
   /* Background colors */
-  --md-default-bg-color: #161616;
-  --md-default-bg-color--light: #2d2d2d;
-  --md-default-bg-color--lighter: #404040;
-  --md-default-bg-color--lightest: #525252;
+  --md-default-bg-color: #0a0a1a;
+  --md-default-bg-color--light: #1a1a2e;
+  --md-default-bg-color--lighter: #2a2a3e;
+  --md-default-bg-color--lightest: #3a3a4e;
   
   /* Text colors */
   --md-default-fg-color: rgba(255, 255, 255, 0.87);
@@ -48,7 +48,7 @@
 
 /* Additional customizations */
 .md-header {
-  background-color: #212121 !important;
+  background-color: #0a0f2e !important;
 }
 
 .md-footer {
@@ -56,7 +56,7 @@
 }
 
 .md-tabs {
-  background-color: #212121 !important;
+  background-color: #0a0f2e !important;
 }
 
 /* Navigation elements */
@@ -74,10 +74,125 @@
   color: var(--md-primary-bg-color);
 }
 
-/* Announcement/sponsor banner */
-.md-banner {
-  background-color: #161616 !important;
-  color: #fff !important; /* Ensures text is readable */
+/* Announcement banner removed */
+
+/* Style title cards and headers to match the blue theme */
+h1, h2, h3, h4, h5, h6 {
+  color: white !important;
+}
+
+/* Make headings black in light mode */
+[data-md-color-scheme="default"] h1,
+[data-md-color-scheme="default"] h2,
+[data-md-color-scheme="default"] h3,
+[data-md-color-scheme="default"] h4,
+[data-md-color-scheme="default"] h5,
+[data-md-color-scheme="default"] h6 {
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+/* Style any title cards or header elements */
+.md-content h1,
+.md-content h2,
+.md-content h3,
+.md-content h4,
+.md-content h5,
+.md-content h6 {
+  color: white !important;
+}
+
+/* Make content headings black in light mode */
+[data-md-color-scheme="default"] .md-content h1,
+[data-md-color-scheme="default"] .md-content h2,
+[data-md-color-scheme="default"] .md-content h3,
+[data-md-color-scheme="default"] .md-content h4,
+[data-md-color-scheme="default"] .md-content h5,
+[data-md-color-scheme="default"] .md-content h6 {
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+/* Style the main page title and headers */
+.md-main__inner h1,
+.md-main__inner h2,
+.md-main__inner h3 {
+  color: white !important;
+}
+
+/* Make main page headings black in light mode */
+[data-md-color-scheme="default"] .md-main__inner h1,
+[data-md-color-scheme="default"] .md-main__inner h2,
+[data-md-color-scheme="default"] .md-main__inner h3 {
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+/* Style title cards and header containers to match card background */
+.md-card,
+.md-card__title,
+.md-card__content,
+.md-typeset .md-card {
+  background-color: #0a0f2e !important;
+  color: white !important;
+  border-color: var(--md-default-fg-color--lightest) !important;
+}
+
+/* Style any header containers or title sections */
+.md-header,
+.md-tabs,
+.md-nav__title,
+.md-nav__list {
+  background-color: #0a0f2e !important;
+  color: white !important;
+}
+
+/* Make navigation backgrounds transparent */
+.md-nav,
+.md-nav__list,
+.md-nav__item,
+.md-nav__link,
+.md-nav__title,
+.md-sidebar,
+.md-sidebar__inner,
+.md-nav__list {
+  background-color: transparent !important;
+}
+
+/* Light mode navigation text color */
+[data-md-color-scheme="default"] .md-nav__link,
+[data-md-color-scheme="default"] .md-nav__title,
+[data-md-color-scheme="default"] .md-nav__item,
+[data-md-color-scheme="default"] .md-nav__list {
+  color: black !important;
+}
+
+/* Dark mode navigation text color */
+[data-md-color-scheme="slate"] .md-nav__link,
+[data-md-color-scheme="slate"] .md-nav__title,
+[data-md-color-scheme="slate"] .md-nav__item,
+[data-md-color-scheme="slate"] .md-nav__list {
+  color: white !important;
+}
+
+/* Remove tab glow effects */
+.md-tabs__link {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.md-tabs__link:hover {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Make sidebar backgrounds transparent */
+.md-sidebar {
+  background-color: transparent !important;
+}
+
+.md-sidebar__inner {
+  background-color: transparent !important;
 }
 
 /* Footer and copyright bar */
@@ -85,6 +200,14 @@
 .md-footer__inner,
 .md-footer-copyright {
   background-color: #212121 !important;
+  color: #fff !important;
+}
+
+/* Light mode footer - match header color */
+[data-md-color-scheme="default"] .md-footer,
+[data-md-color-scheme="default"] .md-footer__inner,
+[data-md-color-scheme="default"] .md-footer-copyright {
+  background-color: #0a0f2e !important;
   color: #fff !important;
 }
 
@@ -152,7 +275,203 @@
   fill: #bababa !important;
 }
 
-/* Apply rounded corners to all images */
-img {
-  border-radius: 20px; /* Adjust the px value for more/less rounding */
+/* Override the grey colors that are being applied */
+[data-md-color-scheme="default"] .md-footer-nav *,
+[data-md-color-scheme="default"] .md-footer-nav__link,
+[data-md-color-scheme="default"] .md-footer-nav__direction,
+[data-md-color-scheme="default"] .md-footer-nav__title,
+[data-md-color-scheme="default"] .md-footer-nav__label {
+  color: #42A5F5 !important;
+}
+
+[data-md-color-scheme="slate"] .md-footer-nav *,
+[data-md-color-scheme="slate"] .md-footer-nav__link,
+[data-md-color-scheme="slate"] .md-footer-nav__direction,
+[data-md-color-scheme="slate"] .md-footer-nav__title,
+[data-md-color-scheme="slate"] .md-footer-nav__label {
+  color: #42A5F5 !important;
+}
+
+/* Style cookie consent buttons */
+.md-consent__dialog .md-button {
+  background-color: #2196F3 !important;
+  border-color: #2196F3 !important;
+  color: white !important;
+}
+
+.md-consent__dialog .md-button:hover {
+  background-color: #1976D2 !important;
+  border-color: #1976D2 !important;
+}
+
+/* Header logo styling to match main website */
+.docs-gradient {
+  background: linear-gradient(45deg, #00f0ff, #ff3f8c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+.by-mr {
+  font-size: 0.95rem;
+  color: #00f0ff;
+  margin-left: 0.75rem;
+  margin-top: 0.55rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+}
+
+/* Hide the default header title */
+.md-header__title {
+  display: none !important;
+}
+
+/* Ensure proper header layout */
+.md-header__inner {
+  justify-content: space-between !important;
+}
+
+/* Logo styling - make it larger and left-aligned */
+.md-logo .md-version {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Space Grotesk', sans-serif !important;
+}
+
+/* Ensure all header text uses Space Grotesk */
+.md-header {
+  font-family: 'Space Grotesk', sans-serif !important;
+}
+
+/* Right-side controls alignment */
+.md-header__option,
+.md-header__source {
+  margin-left: auto !important;
+}
+
+/* Ensure search and other controls are right-aligned */
+.md-header__button[for="__search"],
+.md-header__option .md-select,
+.md-header__source {
+  margin-left: 0.5rem !important;
+}
+
+/* Adjust spacing and alignment */
+.md-logo .md-version span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.by-mr {
+  font-size: 0.7rem;
+  color: #00f0ff;
+  margin-left: 0.5rem;
+  margin-top: 0.4rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .md-logo .md-version {
+    font-size: 1.2rem;
+  }
+  
+  .by-mr {
+    font-size: 0.6rem;
+    margin-left: 0.4rem;
+  }
+}
+
+/* Annotation tooltip popup styling - targets the actual popup content */
+.md-tooltip {
+  background-color: #1a1f4d !important;
+  color: white !important;
+  border: 2px solid rgba(255,255,255,0.2) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3) !important;
+}
+
+/* Annotation tooltip inner content */
+.md-tooltip__inner {
+  background-color: #1a1f4d !important;
+  color: white !important;
+}
+
+/* Annotation tooltip text content */
+.md-tooltip__inner p,
+.md-tooltip__inner li,
+.md-tooltip__inner div {
+  color: #e0e0e0 !important;
+}
+
+/* Annotation tooltip headings */
+.md-tooltip__inner h1,
+.md-tooltip__inner h2,
+.md-tooltip__inner h3,
+.md-tooltip__inner h4,
+.md-tooltip__inner h5,
+.md-tooltip__inner h6 {
+  color: white !important;
+}
+
+/* Annotation tooltip code blocks */
+.md-tooltip__inner code {
+  background-color: rgba(255,255,255,0.1) !important;
+  color: #e0e0e0 !important;
+}
+
+/* Annotation tooltip links */
+.md-tooltip__inner a {
+  color: #00f0ff !important;
+}
+
+.md-tooltip__inner a:hover {
+  color: #42A5F5 !important;
+}
+
+/* Light mode overrides */
+[data-md-color-scheme="default"] .md-tooltip,
+[data-md-color-scheme="default"] .md-tooltip__inner {
+  background-color: #1a1f4d !important;
+  color: white !important;
+}
+
+/* Custom AI Sparkle Admonition */
+:root {
+  --md-admonition-icon--ai-sparkle: url('../core/blink-led/ai-sparkle.svg')
+}
+
+.md-typeset .admonition.ai-sparkle,
+.md-typeset details.ai-sparkle {
+  border-color: #42A5F5;
+}
+
+.md-typeset .ai-sparkle > .admonition-title,
+.md-typeset .ai-sparkle > summary {
+  background-color: rgba(66, 165, 245, 0.1);
+  color: #1976D2;
+}
+
+.md-typeset .ai-sparkle > .admonition-title::before,
+.md-typeset .ai-sparkle > summary::before {
+  background-color: #42A5F5;
+  -webkit-mask-image: var(--md-admonition-icon--ai-sparkle);
+          mask-image: var(--md-admonition-icon--ai-sparkle);
+}
+
+/* Dark mode overrides for AI sparkle admonition */
+[data-md-color-scheme="slate"] .md-typeset .ai-sparkle > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset .ai-sparkle > summary {
+  color: #90CAF9;
+}
+
+/* Simple active page styling - just blue text */
+.md-nav__link--active {
+  color: #00f0ff !important;
 }

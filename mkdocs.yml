@@ -12,17 +12,17 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to Light Mode
-      primary: grey
-      accent: grey
+      primary: blue
+      accent: purple
 
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Switch to Dark Mode
-      primary: grey
-      accent: grey
+      primary: blue
+      accent: purple
   font:
-    text: Space Grotesk
+    text: Inter
     code: Roboto Mono
   features:
     - navigation.instant
@@ -31,12 +31,16 @@ theme:
     - navigation.expand
     - navigation.top
     - navigation.footer
+    #- navigation.sections
+    - navigation.indexes
     - search.suggest
     - content.footnote.tooltips
+    - content.code.copy
+    - content.code.line_numbers
 
 extra_css:
   - stylesheets/extra.css
-  #- stylesheets/interactive_graph.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 watch:
     - overrides
@@ -55,36 +59,43 @@ plugins:
     
 
 nav:
-  
   - Home: index.md
   
   - Get Started: 
-    - get-started/index.md
-    - Unboxing: get-started/unboxing.md
-    - Setup Arduino IDE: get-started/arduino-ide.md
-    - Setup the IMU: get-started/imu.md
-    - Your First Application: get-started/motion-tracker.md
+    - setup/index.md
+    - Unboxing: setup/unboxing.md
+    - Setup Arduino IDE: setup/arduino-ide.md
+    - Setup the IMU: setup/imu.md
+    - Your First Application: setup/motion-tracker.md
   
-  - Basics: 
-    - basics/index.md
-    - Using GPIO: basics/gpio.md
-    - Using the IMU: basics/imu.md
-    - Using the SD Card: basics/sdcard.md
-    - Using the Serial Monitor & Plotter: basics/serial.md
-    - Using I2C: basics/i2c.md
-    - Using tinyProto: basics/tinyProto.md
+  - Core: 
+    - core/index.md
+    - Basics:
+      - Using GPIO: core/gpio.md
+      - Using the IMU: core/imu.md
+      - Blinking an LED: core/blink-led.md
+      - Using the SD Card: core/sdcard.md
+      - Using the Serial Monitor & Plotter: core/serial.md
+      - Using I2C: core/i2c.md
+      - Linking two tinyCores: core/link-tiny-core.md
+      - Using tinyProto: core/tinyProto.md
+    - Advanced: core/advanced/index.md
 
-  - Advanced: 
-    - advanced/index.md
-    - Using I2S: advanced/I2S.md
-    - Using DMA/Fast ADC: advanced/dma.md
-    - Using AI/tinyML: advanced/ai.md
-    - Using ESP-NOW: advanced/esp-now.md
-    - Using WiFi: advanced/wif.md
-    - Using BLE: advanced/ble.md
-    - Using HID: advanced/hid.md
-    - Using MIDI: advanced/midi.md
-    - Using USB Mass Storage: advanced/usb-mass-storage.md
+  - Expansions:
+    - expansions/index.md
+    - tinyGlow: expansions/tinyGlow.md
+    - tinyVoice: expansions/tinyVoice.md
+    - tinyDisplay: expansion/tinyDisplay.md
+    - tinySniff: expansion/tinySniff.md
+    - tinyProto: expansion/tinyProto.md
+    - tinyMove: expansion/tinyMove.md
+
+  - Reference:
+    - reference/index.md
+
+  - User Projects: 
+    - user-projects/index.md
+    - Motion Tracker: user-projects/motion-tracker.md    
 
   - Blog: blog/index.md
 
@@ -138,7 +149,9 @@ markdown_extensions:
 extra_javascript:
   - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
   - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
-  #- assets/javascripts/interactive_graph.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
 extra:
   social:
