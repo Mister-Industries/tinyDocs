@@ -22,9 +22,9 @@
   --md-default-fg-color--lightest: rgba(0, 0, 0, 0.07);
 }
 
-/* Dark mode */
+/* Dark mode DISABLED - forcing light mode only */
 [data-md-color-scheme="slate"] {
-  /* Primary colors */
+  /* Force light mode colors */
   --md-primary-fg-color: #2196F3;
   --md-primary-fg-color--light: #42A5F5;
   --md-primary-fg-color--dark: #1976D2;
@@ -33,17 +33,21 @@
   --md-accent-fg-color: #42A5F5;
   --md-accent-fg-color--transparent: rgba(66, 165, 245, 0.1);
   
-  /* Background colors */
-  --md-default-bg-color: #0a0a1a;
-  --md-default-bg-color--light: #1a1a2e;
-  --md-default-bg-color--lighter: #2a2a3e;
-  --md-default-bg-color--lightest: #3a3a4e;
+  /* Background colors - force light mode */
+  --md-default-bg-color: #e6e6f0;
+  --md-default-bg-color--light: #f0f0fa;
+  --md-default-bg-color--lighter: #f5f5ff;
+  --md-default-bg-color--lightest: #fafaff;
   
-  /* Text colors */
-  --md-default-fg-color: rgba(255, 255, 255, 0.87);
-  --md-default-fg-color--light: rgba(255, 255, 255, 0.54);
-  --md-default-fg-color--lighter: rgba(255, 255, 255, 0.32);
-  --md-default-fg-color--lightest: rgba(255, 255, 255, 0.07);
+  /* Text colors - force light mode */
+  --md-default-fg-color: rgba(0, 0, 0, 0.87);
+  --md-default-fg-color--light: rgba(0, 0, 0, 0.54);
+  --md-default-fg-color--lighter: rgba(0, 0, 0, 0.32);
+  --md-default-fg-color--lightest: rgba(0, 0, 0, 0.07);
+  
+  /* Override Material theme navigation active link colors */
+  --md-default-fg-color--active: #0098a3;
+  --md-accent-fg-color--active: #0098a3;
 }
 
 /* Additional customizations */
@@ -173,26 +177,115 @@ h1, h2, h3, h4, h5, h6 {
 /* Light mode active page styling */
 [data-md-color-scheme="default"] .md-nav__link--active {
   background-color: white !important;
-  color: #2196F3 !important;
+  color: #0098a3 !important;
   font-weight: 600 !important;
 }
 
-/* Dark mode navigation styling */
+/* Dark mode navigation styling - FORCED TO LIGHT MODE */
 [data-md-color-scheme="slate"] .md-nav__link,
 [data-md-color-scheme="slate"] .md-nav__item,
 [data-md-color-scheme="slate"] .md-nav__list {
-  color: white !important;
+  color: black !important;
 }
 
 [data-md-color-scheme="slate"] .md-nav__title {
-  background-color: #1a1a2e !important;
-  border-bottom: 1px solid #2a2a3e !important;
+  background-color: #f5f5f5 !important;
+  border-bottom: 1px solid #e0e0e0 !important;
 }
 
-/* Dark mode active page styling */
-[data-md-color-scheme="slate"] .md-nav__link--active {
+/* Dark mode active page styling - FORCED TO LIGHT MODE */
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__item .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__list .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-sidebar .md-nav__link--active {
   background-color: white !important;
-  color: #2196F3 !important;
+  color: #0098a3 !important;
+  font-weight: 600 !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Force override any Material theme background colors in dark mode */
+[data-md-color-scheme="slate"] .md-nav__link--active *,
+[data-md-color-scheme="slate"] .md-nav__item .md-nav__link--active *,
+[data-md-color-scheme="slate"] .md-nav__list .md-nav__link--active * {
+  background-color: transparent !important;
+}
+
+/* COMPLETE OVERRIDE - Target the actual DOM structure */
+body[data-md-color-scheme="slate"] .md-nav__link--active,
+body[data-md-color-scheme="slate"] .md-nav__item .md-nav__link--active,
+body[data-md-color-scheme="slate"] .md-nav__list .md-nav__link--active,
+body[data-md-color-scheme="slate"] .md-nav .md-nav__link--active,
+body[data-md-color-scheme="slate"] .md-nav__link--active,
+html body[data-md-color-scheme="slate"] .md-nav__link--active,
+html body[data-md-color-scheme="slate"] .md-nav__item .md-nav__link--active,
+html body[data-md-color-scheme="slate"] .md-nav__list .md-nav__link--active {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-size: unset !important;
+  background-position: unset !important;
+  background-repeat: unset !important;
+  background-attachment: unset !important;
+  color: #0098a3 !important;
+  font-weight: 600 !important;
+  border: none !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  outline: none !important;
+}
+
+/* NUCLEAR OPTION - Force override with inline styles */
+body[data-md-color-scheme="slate"] .md-nav__link--active {
+  all: unset !important;
+  display: block !important;
+  padding: 0.5rem 1rem !important;
+  color: #0098a3 !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* EXTREME OVERRIDE - Target every possible selector combination */
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__item .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__list .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-sidebar .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-sidebar__inner .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__link--active:hover,
+[data-md-color-scheme="slate"] .md-nav__link--active:focus,
+[data-md-color-scheme="slate"] .md-nav__link--active:active,
+[data-md-color-scheme="slate"] .md-nav__link--active:visited,
+[data-md-color-scheme="slate"] .md-nav__link--active:link {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-size: unset !important;
+  background-position: unset !important;
+  background-repeat: unset !important;
+  background-attachment: unset !important;
+  color: #0098a3 !important;
+  font-weight: 600 !important;
+  border: none !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  outline: none !important;
+  --md-default-bg-color: transparent !important;
+  --md-accent-fg-color: #0098a3 !important;
+}
+
+/* FINAL NUCLEAR OPTION - Override any remaining styles */
+[data-md-color-scheme="slate"] *[class*="md-nav__link--active"] {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #0098a3 !important;
   font-weight: 600 !important;
 }
 
