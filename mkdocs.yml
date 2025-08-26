@@ -124,6 +124,8 @@ nav:
       #- What is MIDI?: 5_reference/advanced/midi.md
       #- What is tinyML?: 5_reference/advanced/tinyml.md
 
+    - FAQ: 5_reference/FAQ.md
+
   - User Projects: 
     - 6_user-projects/index.md
     - Motion Tracker: 6_user-projects/motion-tracker.md    

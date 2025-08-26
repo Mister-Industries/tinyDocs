@@ -139,6 +139,6 @@ Monthly subscriptions through GitHub Sponsors or PCBWay directly fund new featur
 
 ## Resources:
 ---
-[FAQ](/faq)
+[FAQ](/5_reference/FAQ)
 
-[User Projects](/user-spotlight)
+[User Projects](/6_user-projects/)
