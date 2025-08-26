@@ -9,6 +9,7 @@ categories:
 hide:
   - toc
   - navigation
+  - title
 ---
 
 <div class="grid" markdown>
@@ -28,7 +29,7 @@ tinyCore is an engineering learning platform based around a truly open-source (o
 * Arduino IDE and CircuitPython
 <br/><br/>
 
-[Start Building!](get-started){ .md-button .md-button--primary }
+[Start Building!](docs-explorer){ .md-button .md-button--primary }
 </div>
 <div class="grid-item" markdown >
 ![tinyCore-Quadrant.png](assets/images/tinyCore-Quadrant.jpg)

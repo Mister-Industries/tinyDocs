@@ -12,17 +12,17 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to Light Mode
-      primary: grey
-      accent: grey
+      primary: blue
+      accent: purple
 
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Switch to Dark Mode
-      primary: grey
-      accent: grey
+      primary: blue
+      accent: purple
   font:
-    text: Space Grotesk
+    text: Inter
     code: Roboto Mono
   features:
     - navigation.instant
@@ -31,12 +31,16 @@ theme:
     - navigation.expand
     - navigation.top
     - navigation.footer
+    - navigation.sections
+    - navigation.indexes
     - search.suggest
     - content.footnote.tooltips
+    - content.code.copy
+    - content.code.line_numbers
 
 extra_css:
   - stylesheets/extra.css
-  #- stylesheets/interactive_graph.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 watch:
     - overrides
@@ -51,42 +55,90 @@ plugins:
         archive_name: Archive
         archive_pagination: true
         categories: true
+        blog_dir: 7_blog
     #- live-edit
     
 
 nav:
-  
   - Home: index.md
   
   - Get Started: 
-    - get-started/index.md
-    - Unboxing: get-started/unboxing.md
-    - Setup Arduino IDE: get-started/arduino-ide.md
-    - Setup the IMU: get-started/imu.md
-    - Your First Application: get-started/motion-tracker.md
+    - 1_get-started/index.md
+    - Unboxing: 1_get-started/unboxing.md
+    - Setup Arduino IDE: 1_get-started/arduino-ide.md
+    - Setup the IMU: 1_get-started/imu.md
+    - Build your First Project: 1_get-started/motion-tracker.md
+    - Explore More!: docs-explorer/index.md
   
-  - Basics: 
-    - basics/index.md
-    - Using GPIO: basics/gpio.md
-    - Using the IMU: basics/imu.md
-    - Using the SD Card: basics/sdcard.md
-    - Using the Serial Monitor & Plotter: basics/serial.md
-    - Using I2C: basics/i2c.md
-    - Using tinyProto: basics/tinyProto.md
+  #- tinyCore: 
+    
+  - Basics:
+    - Blink an LED: 2_tiny-core/basics/blink-led.md
+    - Buzz a Buzzer: 2_tiny-core/basics/buzz-buzzer.md
+    - Read a Button Press: 2_tiny-core/basics/button-press.md
+    - Read Analog Sensor Values: 2_tiny-core/basics/read-sensor-value.md
+    - Detect Motion with the IMU: 2_tiny-core/basics/detect-motion.md
+    - Save Data to the SD Card: 2_tiny-core/basics/save-data-to-sdcard.md
+    - Connect a Display via I2C: 2_tiny-core/basics/i2c-display.md
+    - Use the Serial Monitor & Plotter: 2_tiny-core/basics/serial-monitor-plotter.md
+    - Connect to WiFi: 2_tiny-core/basics/wifi.md
+    - Connect to Bluetooth: 2_tiny-core/basics/bluetooth.md
+    - Link two tinyCores: 2_tiny-core/basics/link-tiny-cores.md
 
-  - Advanced: 
-    - advanced/index.md
-    - Using I2S: advanced/I2S.md
-    - Using DMA/Fast ADC: advanced/dma.md
-    - Using AI/tinyML: advanced/ai.md
-    - Using ESP-NOW: advanced/esp-now.md
-    - Using WiFi: advanced/wif.md
-    - Using BLE: advanced/ble.md
-    - Using HID: advanced/hid.md
-    - Using MIDI: advanced/midi.md
-    - Using USB Mass Storage: advanced/usb-mass-storage.md
+  - Advanced:
+    - Save Data to Google Sheets: 2_tiny-core/advanced/google-sheets.md
+    - Save Data to Thingspeak: 2_tiny-core/advanced/thingspeak.md
+    - Host a Website Interface: 2_tiny-core/advanced/website-interface.md
+    - Dabble App (Bluetooth):
+      - Setup the Dabble App: 2_tiny-core/advanced/dabble-app.md
+      - Blink an LED: 2_tiny-core/advanced/dabble-app-led.md
+      - Use a Controller: 2_tiny-core/advanced/dabble-app-controller.md
+      #- Move a Servo Motor: 2_tiny-core/advanced/dabble-app-servo.md
 
-  - Blog: blog/index.md
+      #BACKLOG
+      #- Run AI Models (tinyML): 2_tiny-core/advanced/tinyML.md
+      #- Pretend to be a Keyboard: 2_tiny-core/advanced/keyboard.md
+      #- Make a MIDI Instrument: 2_tiny-core/advanced/midi-instrument.md
+      #- Use USB Mass Storage: 2_tiny-core/advanced/usb-mass-storage.md
+      #- Use Smart Home: 2_tiny-core/advanced/esp-smart-home.md
+
+  #- tinyHATs:
+    #- 3_tiny-hats/index.md
+    #- tinyGlow: 3_tiny-hats/tinyGlow.md
+    #- tinyVoice: 3_tiny-hats/tinyVoice.md
+    #- tinyDisplay: 3_tiny-hats/tinyDisplay.md
+    #- tinySniff: 3_tiny-hats/tinySniff.md
+    #- tinyProto: 3_tiny-hats/tinyProto.md
+    #- tinyMove: 3_tiny-hats/tinyMove.md
+
+  - Reference:
+    - 5_reference/index.md
+    
+    - Basics:
+      - What is GPIO?: 5_reference/basics/gpio.md
+      - What is I2C?: 5_reference/basics/i2c.md
+      - What is an IMU?: 5_reference/basics/imu.md
+      - What is Serial Communication?: 5_reference/basics/serial-communication.md
+      - What is an SD Card?: 5_reference/basics/sd-card.md
+      - What is ESP-NOW?: 5_reference/basics/esp-now.md
+
+    - Advanced:
+      - What is I2S?: 5_reference/advanced/i2s.md
+      - What is an ADC?: 5_reference/advanced/adc.md
+      - What is a DAC?: 5_reference/advanced/dac.md
+      - What is DMA/FastADC?: 5_reference/advanced/dma-fastadc.md
+      - What is WiFi?: 5_reference/advanced/wifi.md
+      - What is Bluetooth?: 5_reference/advanced/bluetooth.md
+      - What is PWM?: 5_reference/advanced/pwm.md
+      #- What is HID?: 5_reference/advanced/hid.md
+      #- What is MIDI?: 5_reference/advanced/midi.md
+      #- What is tinyML?: 5_reference/advanced/tinyml.md
+
+  - User Projects: 
+    - 6_user-projects/index.md
+    - Motion Tracker: 6_user-projects/motion-tracker.md    
+
+  - Blog: 7_blog/index.md
 
 markdown_extensions:
   - admonition
@@ -138,7 +190,9 @@ markdown_extensions:
 extra_javascript:
   - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
   - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
-  #- assets/javascripts/interactive_graph.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
 extra:
   social:
