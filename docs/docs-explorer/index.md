@@ -14,7 +14,7 @@ hide:
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 2rem;">
-  <a href="../setup/" class="project-card" style="
+  <a href="../../1_get-started/" class="project-card" style="
     width: 1026px;
     height: 296px;
     padding: 2rem;
@@ -245,19 +245,19 @@ hide:
   <div class="subtitle">I want AI and machine learning</div>
 </a>
 
-<a href="../advanced/ble" class="project-card">
+<a href="../../2_tiny-core/advanced/dabble-app" class="project-card">
   <span class="icon icon-violet"><i class="fas fa-mobile-alt"></i></span>
   <div class="title">Connects to my phone!</div>
   <div class="subtitle">I want wireless communication</div>
 </a>
 
-<a href="../advanced/esp-now" class="project-card">
+<a href="../../2_tiny-core/basics/link-tiny-cores" class="project-card">
   <span class="icon icon-pink"><i class="fas fa-link"></i></span>
   <div class="title">Connects to another tinyCore!</div>
   <div class="subtitle">I want device-to-device communication</div>
 </a>
 
-<a href="../advanced/wifi" class="project-card">
+<a href="../../2_tiny-core/basics/wifi" class="project-card">
   <span class="icon icon-cyan"><i class="fas fa-wifi"></i></span>
   <div class="title">Connects to the internet!</div>
   <div class="subtitle">I want web connectivity</div>
@@ -271,19 +271,19 @@ hide:
 
 <div class="project-grid">
 
-<a href="../setup/" class="project-card">
+<a href="../../1_get-started/" class="project-card">
   <span class="icon icon-red"><i class="fas fa-tools"></i></span>
   <div class="title">Setup Guide</div>
   <div class="subtitle">I need to set up my tinyCore first</div>
 </a>
 
-<a href="../basics" class="project-card">
+<a href="../../2_tiny-core/basics" class="project-card">
   <span class="icon icon-orange"><i class="fas fa-book"></i></span>
   <div class="title">Learn Basics</div>
   <div class="subtitle">I want to understand the fundamentals</div>
 </a>
 
-<a href="../advanced" class="project-card">
+<a href="../../2_tiny-core/advanced" class="project-card">
   <span class="icon icon-yellow"><i class="fas fa-bolt"></i></span>
   <div class="title">Advanced Features</div>
   <div class="subtitle">I want to explore advanced capabilities</div>
@@ -297,55 +297,55 @@ hide:
 
 <div class="project-grid">
 
-<a href="../basics/sdcard" class="project-card">
+<a href="../../1_get-started/motion-tracker" class="project-card">
   <span class="icon icon-green"><i class="fas fa-chart-line"></i></span>
   <div class="title">Motion Activity Tracker</div>
   <div class="subtitle">Collects data + Moves</div>
 </a>
 
-<a href="../advanced/ble" class="project-card">
+<a href="../../2_tiny-core/advanced/bluetooth" class="project-card inactive">
   <span class="icon icon-blue"><i class="fas fa-lightbulb"></i></span>
   <div class="title">RGB Mood Light</div>
   <div class="subtitle">Lights up + Connects to phone</div>
 </a>
 
-<a href="../advanced/I2S" class="project-card inactive">
+<a href="../../2_tiny-core/advanced/midi-instrument" class="project-card inactive">
   <span class="icon icon-indigo"><i class="fas fa-music"></i></span>
   <div class="title">Musical Touch Pad</div>
   <div class="subtitle">Makes Sound + Responds to input</div>
 </a>
 
-<a href="../basics/gpio" class="project-card inactive">
+<a href="../../2_tiny-core/basics/button-press" class="project-card inactive">
   <span class="icon icon-violet"><i class="fas fa-robot"></i></span>
   <div class="title">Mini Robot Car</div>
   <div class="subtitle">Moves + Responds to input</div>
 </a>
 
-<a href="../basics/gpio" class="project-card inactive">
+<a href="../../2_tiny-core/basics/button-press" class="project-card inactive">
   <span class="icon icon-pink"><i class="fas fa-gamepad"></i></span>
   <div class="title">Interactive Game Controller</div>
   <div class="subtitle">Responds to input + Connects to phone</div>
 </a>
 
-<a href="../advanced/ai" class="project-card inactive">
+<a href="../../2_tiny-core/advanced/tinyML" class="project-card inactive">
   <span class="icon icon-cyan"><i class="fas fa-brain"></i></span>
   <div class="title">Smart Plant Monitor</div>
   <div class="subtitle">Thinks + Collects data + Connects to internet</div>
 </a>
 
-<a href="../advanced/ble" class="project-card inactive">
+<a href="../../2_tiny-core/advanced/bluetooth" class="project-card inactive">
   <span class="icon icon-red"><i class="fas fa-home"></i></span>
   <div class="title">Smart Home Hub</div>
   <div class="subtitle">Connects to phone + Connects to internet + Lights up</div>
 </a>
 
-<a href="../advanced/esp-now" class="project-card inactive">
+<a href="../../2_tiny-core/basics/esp-now" class="project-card inactive">
   <span class="icon icon-orange"><i class="fas fa-network-wired"></i></span>
   <div class="title">Mesh Network Sensor</div>
   <div class="subtitle">Connects to another tinyCore + Collects data</div>
 </a>
 
-<a href="../advanced/wifi" class="project-card inactive">
+<a href="../../2_tiny-core/basics/wifi" class="project-card inactive">
   <span class="icon icon-yellow"><i class="fas fa-cloud-sun"></i></span>
   <div class="title">Weather Station</div>
   <div class="subtitle">Connects to internet + Collects data + Responds to input</div>
@@ -360,8 +360,6 @@ hide:
 ## 💡 **Still not sure?**
 
 **Take our quick quiz!** (Coming soon)
-
-Or simply start with the [Motion Tracker Tutorial](setup/motion-tracker.md) - it's designed to be accessible to everyone and will teach you the fundamentals you need for any tinyCore project.
 
 **Need help?** Join our [Discord community](https://discord.gg/hvJZhwfQsF) for personalized guidance!
 

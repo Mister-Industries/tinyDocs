@@ -122,7 +122,7 @@ hide:
 
 <div class="project-grid">
 
-<a href="../../core/blink-led" class="project-card card-basic">
+<a href="../../2_tiny-core/basics/blink-led" class="project-card card-basic">
   <span class="icon">💡</span>
   <div class="title">Turn lights on and off</div>
   <div class="subtitle">Basic LED control with GPIO</div>
@@ -134,13 +134,13 @@ hide:
   <div class="subtitle">Colorful lighting effects</div>
 </a>
 
-<a href="../../core/blink-led#part-2-pwm-control-dimming-and-brightening" class="project-card card-dimmer">
+<a href="../../2_tiny-core/basics/blink-led#part-2-pwm-control-dimming-and-brightening" class="project-card card-dimmer">
   <span class="icon">🔆</span>
   <div class="title">Adjust brightness of lights</div>
   <div class="subtitle">PWM dimming control</div>
 </a>
 
-<a href="../../advanced/ble" class="project-card card-phone">
+<a href="../../2_tiny-core/advanced/dabble-app" class="project-card card-phone">
   <span class="icon">📱</span>
   <div class="title">Control lights from my phone</div>
   <div class="subtitle">Wireless lighting control</div>
@@ -152,9 +152,9 @@ hide:
 
 ## 🚀 **Quick Start**
 
-**New to tinyCore?** Start with [Setup](../../setup) to learn how to use the tinyCore.
+**New to tinyCore?** Start with [Setup](../../1_get-started) to learn how to use the tinyCore.
 
-**Want to see a complete project?** Try the [RGB Mood Light Tutorial](../../advanced/ble).
+
 
 ---
 

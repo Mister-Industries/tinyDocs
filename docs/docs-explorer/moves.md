@@ -122,7 +122,7 @@ hide:
 
 <div class="project-grid">
 
-<a href="../../basics/imu" class="project-card card-measure">
+<a href="../../2_tiny-core/basics/detect-motion" class="project-card card-measure">
   <span class="icon">📏</span>
   <div class="title">Measure movement (IMU)</div>
   <div class="subtitle">Detect motion and orientation</div>
@@ -160,15 +160,6 @@ hide:
 
 </div>
 
----
-
-## 🚀 **Quick Start**
-
-**New to tinyCore?** Start with [GPIO Basics](../../basics/gpio) to learn how to control motors.
-
-**Want to measure movement?** Check out [IMU Basics](../../basics/imu) for motion detection.
-
-**Want to see a complete project?** Try the [Mini Robot Car Tutorial](../../basics/gpio).
 
 ---
 

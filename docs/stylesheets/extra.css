@@ -138,28 +138,26 @@ h1, h2, h3, h4, h5, h6 {
   border-color: var(--md-default-fg-color--lightest) !important;
 }
 
-/* Style any header containers or title sections */
+/* Style header containers and tabs only - not navigation */
 .md-header,
-.md-tabs,
-.md-nav__title,
-.md-nav__list {
+.md-tabs {
   background-color: #0a0f2e !important;
   color: white !important;
 }
 
-/* Make navigation backgrounds transparent */
-.md-nav,
-.md-nav__list,
-.md-nav__item,
-.md-nav__link,
-.md-nav__title,
-.md-sidebar,
-.md-sidebar__inner,
-.md-nav__list {
-  background-color: transparent !important;
+/* Navigation styling - restore functionality while keeping custom colors */
+.md-nav__link {
+  /* Allow Material theme to handle hover/active states */
+  transition: all 0.2s ease;
 }
 
-/* Light mode navigation text color */
+.md-nav__link:hover {
+  /* Custom hover effect */
+  background-color: rgba(66, 165, 245, 0.1) !important;
+  color: var(--md-accent-fg-color) !important;
+}
+
+/* Light mode navigation styling */
 [data-md-color-scheme="default"] .md-nav__link,
 [data-md-color-scheme="default"] .md-nav__title,
 [data-md-color-scheme="default"] .md-nav__item,
@@ -167,12 +165,35 @@ h1, h2, h3, h4, h5, h6 {
   color: black !important;
 }
 
-/* Dark mode navigation text color */
+[data-md-color-scheme="default"] .md-nav__title {
+  background-color: #f5f5f5 !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+}
+
+/* Light mode active page styling */
+[data-md-color-scheme="default"] .md-nav__link--active {
+  background-color: white !important;
+  color: #2196F3 !important;
+  font-weight: 600 !important;
+}
+
+/* Dark mode navigation styling */
 [data-md-color-scheme="slate"] .md-nav__link,
-[data-md-color-scheme="slate"] .md-nav__title,
 [data-md-color-scheme="slate"] .md-nav__item,
 [data-md-color-scheme="slate"] .md-nav__list {
   color: white !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__title {
+  background-color: #1a1a2e !important;
+  border-bottom: 1px solid #2a2a3e !important;
+}
+
+/* Dark mode active page styling */
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  background-color: white !important;
+  color: #2196F3 !important;
+  font-weight: 600 !important;
 }
 
 /* Remove tab glow effects */
@@ -186,13 +207,13 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: none !important;
 }
 
-/* Make sidebar backgrounds transparent */
+/* Keep sidebar visible with white background for readability */
 .md-sidebar {
-  background-color: transparent !important;
+  background-color: white !important;
 }
 
 .md-sidebar__inner {
-  background-color: transparent !important;
+  background-color: white !important;
 }
 
 /* Footer and copyright bar */
@@ -471,7 +492,37 @@ h1, h2, h3, h4, h5, h6 {
   color: #90CAF9;
 }
 
-/* Simple active page styling - just blue text */
-.md-nav__link--active {
-  color: #00f0ff !important;
+/* Active page styling - white background with blue text - make it very specific */
+.md-nav__link--active,
+.md-nav__item .md-nav__link--active,
+.md-nav__list .md-nav__link--active {
+  background-color: white !important;
+  color: #0098a3 !important;
+  font-weight: 600 !important;
+}
+
+/* Fix pink permalink/anchor links - make them subtle gray */
+.md-headerlink,
+.md-permalink,
+.md-content h1 .headerlink,
+.md-content h2 .headerlink,
+.md-content h3 .headerlink,
+.md-content h4 .headerlink,
+.md-content h5 .headerlink,
+.md-content h6 .headerlink {
+  color: #e2e2e2 !important;
+  opacity: 0.7 !important;
+  transition: opacity 0.2s ease !important;
+}
+
+.md-headerlink:hover,
+.md-permalink:hover,
+.md-content h1 .headerlink:hover,
+.md-content h2 .headerlink:hover,
+.md-content h3 .headerlink:hover,
+.md-content h4 .headerlink:hover,
+.md-content h5 .headerlink:hover,
+.md-content h6 .headerlink:hover {
+  color: #b8b8b8 !important;
+  opacity: 1 !important;
 }

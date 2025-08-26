@@ -173,12 +173,4 @@ hide:
 
 ---
 
-## 🚀 **Quick Start**
-
-**New to tinyCore?** Start with [AI/ML Basics](../../advanced/ai) to learn how to run models.
-
-**Want to see a complete project?** Try the [Smart Plant Monitor Tutorial](../../advanced/ai).
-
----
-
 *Choose an AI/ML option above or [go back](index.md) to explore other project types!* 

@@ -136,23 +136,13 @@ hide:
   <div class="subtitle">Switches and tactile inputs</div>
 </a>
 
-<a href="../../advanced/ble" class="project-card card-wireless">
+<a href="../../2_tiny-core/advanced/dabble-app" class="project-card card-wireless">
   <span class="icon">📱</span>
   <div class="title">Wireless controller</div>
   <div class="subtitle">Bluetooth input device</div>
 </a>
 
 </div>
-
----
-
-## 🚀 **Quick Start**
-
-**New to tinyCore?** Start with [GPIO Basics](../../basics/gpio) to learn how to read buttons.
-
-**Want to create USB devices?** Check out [HID Basics](../../advanced/hid) for keyboard/mouse functionality.
-
-**Want to see a complete project?** Try the [Interactive Game Controller Tutorial](../../advanced/ble).
 
 ---
 

@@ -117,42 +117,33 @@ hide:
 
 <div class="project-grid">
 
-<a href="#" class="project-card card-sensor inactive">
+<a href="../../2_tiny-core/basics/read-sensor-value" class="project-card card-sensor">
   <span class="icon">📡</span>
   <div class="title">Take sensor readings</div>
   <div class="subtitle">Read temperature, humidity, light, etc.</div>
 </a>
 
-<a href="../../basics/sdcard" class="project-card card-save">
+<a href="../../2_tiny-core/basics/save-data-to-sdcard" class="project-card card-save">
   <span class="icon">💾</span>
   <div class="title">Save information to SD Card</div>
   <div class="subtitle">Store data locally</div>
 </a>
 
-<a href="../../advanced/ble" class="project-card card-wireless">
+<a href="../../2_tiny-core/advanced/thingspeak" class="project-card card-wireless">
   <span class="icon">📶</span>
-  <div class="title">Send information wirelessly</div>
-  <div class="subtitle">Bluetooth and WiFi transmission</div>
+  <div class="title">Visualize data online</div>
+  <div class="subtitle">Graph data to Thingspeak</div>
 </a>
 
-<a href="../../advanced/wifi" class="project-card card-database">
+<a href="../../2_tiny-core/advanced/google-sheets" class="project-card card-database">
   <span class="icon">🗄️</span>
-  <div class="title">Send to database</div>
-  <div class="subtitle">Cloud storage and analysis</div>
+  <div class="title">Log to a database</div>
+  <div class="subtitle">Save data in Google Sheets</div>
 </a>
 
 </div>
 
 ---
 
-## 🚀 **Quick Start**
-
-**New to tinyCore?** Start with [GPIO Basics](../../basics/gpio) to learn how to read sensors.
-
-**Want to store data?** Check out [SD Card Basics](../../basics/sdcard) for local storage.
-
-**Want to see a complete project?** Try the [Motion Activity Tracker Tutorial](../../basics/sdcard).
-
----
 
 *Choose a data collection option above or [go back](index.md) to explore other project types!* 

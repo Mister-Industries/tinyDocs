@@ -140,7 +140,7 @@ hide:
   <div class="subtitle">Real-time audio processing</div>
 </a>
 
-<a href="../../basics/sdcard" class="project-card card-save">
+<a href="../../2_tiny-core/basics/save-data-to-sdcard" class="project-card card-save">
   <span class="icon">💾</span>
   <div class="title">Save audio</div>
   <div class="subtitle">Store audio files on SD card</div>
@@ -164,9 +164,9 @@ hide:
 
 ## 🚀 **Quick Start**
 
-**New to tinyCore?** Start with [SD Card Basics](../../basics/sdcard) to learn how to store data.
+**New to tinyCore?** Start with [SD Card Basics](../../2_tiny-core/basics/save-data-to-sdcard) to learn how to store data.
 
-**Want to see a complete project?** Try the [Musical Touch Pad Tutorial](../../advanced/i2s).
+**Want to see a complete project?** Try the [Musical Touch Pad Tutorial](../../2_tiny-core/advanced/midi-instrument).
 
 ---
 
